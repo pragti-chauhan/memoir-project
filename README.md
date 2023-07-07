@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Memoir - Social App to let users create, share and interact with memoirs
+![Logo](https://github.com/pragti-chauhan/memoir-project/assets/66918663/33f829d2-a417-488a-877c-172ce8f636c4)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
+Memoir is a website that comes with various features like user registration, letting registered users create posts, edit and delete them, as well as like other users' posts. Website is built on React frontend deployed over Netlify, while the backend, which is based on node and express, is deployed on Vercel server. MongoDB Atlas Cluster is used for the database management. <br/>
+This website is up and running on [Memoir](https://memoir-web.netlify.app/).
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Frontend - Chrome Extension
+- Unregistered users will be unable to create or interact with memoirs.
+<img alt="site-preview" src="https://github.com/pragti-chauhan/memoir-project/assets/66918663/9c86080a-9624-4dcd-8d85-f073afcefa67" width="800" height="500" />
 
-### `npm start`
+- &quot;Sign In&quot; button redirects you to authentication page, where you can either Sign In or Sign Up.
+<img alt="sign-in" src="https://github.com/pragti-chauhan/memoir-project/assets/66918663/04e20b2e-ba2d-4b68-a3dc-95adf48e39c7" width="600" height="300" />
+<img alt="sign-up" src="https://github.com/pragti-chauhan/memoir-project/assets/66918663/4de4861b-aded-43f2-8ab2-9537328811cf" width="600" height="300" />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Once Signed In, you can create your own posts, modify it and even delete it. You can also like posts as well.
+<img alt="sign-in" src="https://github.com/pragti-chauhan/memoir-project/assets/66918663/538c8b15-c1e3-4262-80d5-0bd80e068016" width="600" height="300" />
+<img alt="sign-up" src="https://github.com/pragti-chauhan/memoir-project/assets/66918663/f0d61ba2-48a9-4f71-9969-7c71712eda74" width="500" height="400" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech Stack
 
-### `npm test`
+**Frontend:** HTML, CSS, JavaScript, React
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Backend:** Node, Express, MongoDB
 
-### `npm run build`
+## Acknowledgements
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ - Project refrence taken from [project_mern_memories](https://github.com/adrianhajdin/project_mern_memories)
+ - Learn to make Readme file from here [Awesome-Readme-Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ - To learn React, check out the [React documentation](https://reactjs.org/).
+ - Frontend deployment platform [Netlify](https://app.netlify.com/)
+ - Backend deployment platform [Vercel](https://vercel.com/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Authors
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [pragti-chauhan](https://github.com/pragti-chauhan)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pragti-chauhan-2132a61a2/)
